@@ -1,0 +1,679 @@
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7faef7c00340] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7fcc1cc00280] Audio device not found
+none:default: Input/output error
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+[31merror[39m: [AVFoundation input device @ 0x7f82bbc0ea20] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+[31merror[39m: [AVFoundation input device @ 0x7fa85a600420] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+[31merror[39m: [AVFoundation input device @ 0x7f94de502700] Audio device not found
+none:default: Input/output error
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7fd216600420] Audio device not found
+none:default: Input/output error
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+[31merror[39m: [AVFoundation input device @ 0x7fb1ea407ee0] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7f9149c0eae0] Audio device not found
+none:default: Input/output error
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+[31merror[39m: [AVFoundation input device @ 0x7fcfe2d00420] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+Unhandled rejection Error: Connection to the / vhost failed. Please make sure that you provided the correct rabbitmq connection parameters.
+    at /Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/@cel/celio/lib/index.js:105:19
+    at tryCatcher (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/promise.js:689:18)
+    at Async._drainQueue (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/Users/cisl-mac-mini-dev-01/Desktop/CISL_local/CIRI/transcript-worker/node_modules/bluebird/js/release/async.js:17:14)
+    at runCallback (timers.js:800:20)
+    at tryOnImmediate (timers.js:762:5)
+    at processImmediate [as _immediateCallback] (timers.js:733:5)
+[31merror[39m: [AVFoundation input device @ 0x7fdec240c020] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7fae3cd0c880] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: Session timed out.
+[32minfo[39m: An error occurred. Restarting capturing after 1 second.
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"keywords_result":{"Watson":[{"normalized_text":"Watson","start_time":75.99,"confidence":0.015,"end_time":76.35}]},"alternatives":[{"transcript":"well ","confidence":0.276,"word_confidence":[["well",0.276]],"timestamps":[["well",75.99,76.35]]},{"transcript":"what "},{"transcript":"why "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"keywords_result":{},"alternatives":[{"timestamps":[],"confidence":0,"transcript":"but "},{"transcript":"it "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"keywords_result":{},"alternatives":[{"timestamps":[],"confidence":0,"transcript":"it's "},{"transcript":"I "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"keywords_result":{},"alternatives":[{"timestamps":[],"confidence":0,"transcript":"how "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"keywords_result":{},"alternatives":[{"transcript":"hello ","confidence":0.891,"word_confidence":[["hello",0.891]],"timestamps":[["hello",88.18,88.5]]},{"transcript":"hello just "},{"transcript":"hello Sir "}],"final":true}}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"alternatives":[{"transcript":"you ","confidence":0.18,"word_confidence":[["you",0.18]],"timestamps":[["you",1,1.17]]},{"transcript":"yeah "},{"transcript":"yeah how "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"alternatives":[{"transcript":"hello ","confidence":0.873,"word_confidence":[["hello",0.873]],"timestamps":[["hello",4.44,4.84]]},{"transcript":"although "},{"transcript":"other "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"how "},{"transcript":"I'm "}],"final":true}}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"yeah "},{"transcript":"well "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"I "},{"transcript":"okay "}],"final":true}}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"no "},{"transcript":"I "}],"final":true}}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelIndex":0,"result":{"alternatives":[{"transcript":"hello ","confidence":0.536,"word_confidence":[["hello",0.536]],"timestamps":[["hello",1.55,1.99]]},{"transcript":"hurtle "},{"transcript":"hurdle "}],"final":true}}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7f966cc00f60] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"no "},{"transcript":"and "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"we hopped ","confidence":0.189,"word_confidence":[["we",0.474],["hopped",0.034]],"timestamps":[["we",7.6,7.79],["hopped",7.79,8.14]]},{"transcript":"me ha "},{"transcript":"we hope "}],"final":true},"total_time":8.14}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"we hope ","confidence":0.658,"word_confidence":[["we",0.536],["hope",0.721]],"timestamps":[["we",11.85,12.02],["hope",12.02,12.35]]},{"transcript":"New Hope "},{"transcript":"we hoped "}],"final":true},"total_time":12.35}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"we ","confidence":0.118,"word_confidence":[["we",0.118]],"timestamps":[["we",0.27,0.44]]},{"transcript":"we are "},{"transcript":"well "}],"final":true},"total_time":0.44}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"a "},{"transcript":"well "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"just ","confidence":0.993,"word_confidence":[["just",0.993]],"timestamps":[["just",4.35,4.92]]},{"transcript":"it's just "},{"transcript":"it just "}],"final":true},"total_time":4.92}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"hello ","confidence":0.878,"word_confidence":[["hello",0.878]],"timestamps":[["hello",8.96,9.56]]},{"transcript":"well hello "},{"transcript":"although "}],"final":true},"total_time":9.56}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"Watson hello ","confidence":0.795,"word_confidence":[["Watson",0.997],["hello",0.527]],"timestamps":[["Watson",6.63,7.23],["hello",7.26,7.71]]},{"transcript":"Watson hollow "},{"transcript":"Watson although "}],"final":true},"total_time":7.71}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"Watson hello ","confidence":0.94,"word_confidence":[["Watson",0.902],["hello",0.978]],"timestamps":[["Watson",16.73,17.24],["hello",17.24,17.75]]},{"transcript":"Watson's hello "},{"transcript":"what's and hello "}],"final":true},"total_time":17.75}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"sure well ","confidence":0.258,"word_confidence":[["sure",0.507],["well",0.125]],"timestamps":[["sure",25.72,25.94],["well",25.94,26.35]]},{"transcript":"sure while "},{"transcript":"sure law "}],"final":true},"total_time":26.35}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"transcript":"Watson hello ","confidence":0.633,"word_confidence":[["Watson",0.536],["hello",0.751]],"timestamps":[["Watson",96.92,97.47],["hello",97.47,97.92]]},{"transcript":"Watson hollow "},{"transcript":"what sent hello "}],"final":true},"total_time":97.92}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"it "},{"transcript":"I "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"far","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"but "},{"transcript":"it "}],"final":true}}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"您好 ","confidence":0.401,"word_confidence":[["您好",0.401]],"timestamps":[["您好",2.22,2.82]]},{"transcript":"宁 浩 "},{"transcript":"你好 "}],"final":true},"total_time":2.82}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 你好 ","confidence":0.665,"word_confidence":[["熊猫",1],["你好",0.218]],"timestamps":[["熊猫",1.34,2.02],["你好",2.02,2.53]]},{"transcript":"熊猫 您好 "},{"transcript":"熊猫 宁 好 "}],"final":true},"total_time":2.53}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 您好 ","confidence":0.635,"word_confidence":[["熊猫",0.989],["您好",0.237]],"timestamps":[["熊猫",91.77,92.39],["您好",92.42,92.97]]},{"transcript":"熊猫 你好 "},{"transcript":"熊猫 年号 "}],"final":true},"total_time":92.97}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 您好 ","confidence":0.69,"word_confidence":[["熊猫",0.996],["您好",0.367]],"timestamps":[["熊猫",124,124.55],["您好",124.55,125.07]]},{"transcript":"熊猫 女孩 "},{"transcript":"熊猫 年号 "}],"final":true},"total_time":125.07}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 您好 ","confidence":0.379,"word_confidence":[["熊猫",0.564],["您好",0.177]],"timestamps":[["熊猫",158.29,158.89],["您好",158.89,159.44]]},{"transcript":"旋涡 您好 "},{"transcript":"熊猫 你好 "}],"final":true},"total_time":159.44}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 您好 ","confidence":0.705,"word_confidence":[["熊猫",1],["您好",0.348]],"timestamps":[["熊猫",195.11,195.69],["您好",195.69,196.17]]},{"transcript":"熊猫 宁 浩 "},{"transcript":"熊猫 您 好 "}],"final":true},"total_time":196.17}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"好 "},{"transcript":"他 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"你 "}],"final":true}}
+[31merror[39m: Session timed out.
+[32minfo[39m: An error occurred. Restarting capturing after 1 second.
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7fb966c0eae0] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: Session timed out.
+[32minfo[39m: An error occurred. Restarting capturing after 1 second.
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7fe719d0dde0] Audio device not found
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[31merror[39m: [AVFoundation input device @ 0x7fcbb24004c0] Audio device not found
+none:default: Input/output error
+
+[32minfo[39m: Stopping all channels.
+undefined
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.998,"word_confidence":[["谢谢",0.998]],"timestamps":[["谢谢",6.49,7.37]]}],"final":true},"total_time":7.37}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"许 "},{"transcript":"嗯 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"他 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.982,"word_confidence":[["谢谢",0.982]],"timestamps":[["谢谢",41.45,42.38]]}],"final":true},"total_time":42.38}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 ","confidence":0.393,"word_confidence":[["熊猫",0.393]],"timestamps":[["熊猫",42.71,43.31]]},{"transcript":"属 於 "},{"transcript":"书屋 "}],"final":true},"total_time":43.31}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.988,"word_confidence":[["谢谢",0.988]],"timestamps":[["谢谢",594.69,596.66]]},{"transcript":"新 谢谢 "},{"transcript":"我们 谢谢 "}],"final":true},"total_time":596.66}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"有 ","confidence":0.523,"word_confidence":[["有",0.523]],"timestamps":[["有",597.48,597.69]]},{"transcript":"再 有 "},{"transcript":"在 "}],"final":true},"total_time":597.69}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"呃 我 也 ","confidence":0.424,"word_confidence":[["呃",0.547],["我",0.416],["也",0.251]],"timestamps":[["呃",600.69,601.03],["我",601.47,601.69],["也",602.56,602.79]]},{"transcript":"我 也 "},{"transcript":"叶 先生 "}],"final":true},"total_time":602.79}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"呃 "},{"transcript":"然后 呃 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":1,"word_confidence":[["谢谢",1]],"timestamps":[["谢谢",654.9,655.73]]}],"final":true},"total_time":655.73}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"别 "},{"transcript":"啊 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.979,"word_confidence":[["谢谢",0.979]],"timestamps":[["谢谢",674.04,674.78]]}],"final":true},"total_time":674.78}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"一 "},{"transcript":"有 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"他 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.98,"word_confidence":[["谢谢",0.98]],"timestamps":[["谢谢",901.85,903.2]]}],"final":true},"total_time":903.2}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"这个 "},{"transcript":"这 本身 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"他 "},{"transcript":"嗯 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"李 "},{"transcript":"你 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"陈 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.943,"word_confidence":[["谢谢",0.943]],"timestamps":[["谢谢",2190.65,2191.01]]}],"final":true},"total_time":2191.01}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.987,"word_confidence":[["谢谢",0.987]],"timestamps":[["谢谢",2212.11,2213.94]]}],"final":true},"total_time":2213.94}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"我说 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"有 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"穿 "},{"transcript":"船 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 ","confidence":0.536,"word_confidence":[["我",0.536]],"timestamps":[["我",2249.36,2249.52]]},{"transcript":"我 就 "},{"transcript":"我说 "}],"final":true},"total_time":2249.52}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"深入 ","confidence":0.09,"word_confidence":[["深入",0.09]],"timestamps":[["深入",2373.22,2373.67]]},{"transcript":"深 "},{"transcript":"声明 "}],"final":true},"total_time":2373.67}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"说 "},{"transcript":"对 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"措施 "},{"transcript":"说是 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"你 可以 做 这个 生意 ","confidence":0.508,"word_confidence":[["你",0.249],["可以",0.755],["做",0.401],["这个",0.993],["生意",0.109]],"timestamps":[["你",2384.75,2384.9],["可以",2384.9,2385.17],["做",2385.21,2385.42],["这个",2385.83,2386.05],["生意",2386.05,2386.33]]},{"transcript":"我 可以 做 这个 生意 "},{"transcript":"你 可以 说 他 这个 声音 "}],"final":true},"total_time":2386.33}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.964,"word_confidence":[["谢谢",0.964]],"timestamps":[["谢谢",2397.82,2398.32]]}],"final":true},"total_time":2398.32}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"那 你 "},{"transcript":"那么 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"尊重 农民工 执行 ","confidence":0.337,"word_confidence":[["尊重",0.054],["农民工",0.592],["执行",0.176]],"timestamps":[["尊重",2405.3,2405.49],["农民工",2405.49,2405.84],["执行",2405.84,2406.06]]},{"transcript":"尊重 农民工 只 "},{"transcript":"知道 农民工 执行 "}],"final":true},"total_time":2406.06}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"应该是 亏 ","confidence":0.687,"word_confidence":[["应该是",0.988],["亏",0.27]],"timestamps":[["应该是",2408.08,2408.55],["亏",2408.55,2408.89]]},{"transcript":"应该是 奎 "},{"transcript":"应该是 魁 "}],"final":true},"total_time":2408.89}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"村民 ","confidence":0.139,"word_confidence":[["村民",0.139]],"timestamps":[["村民",2410.51,2410.77]]},{"transcript":"我 肯定 "},{"transcript":"陈 "}],"final":true},"total_time":2410.77}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"但是 我 肖 春 ","confidence":0.551,"word_confidence":[["但是",0.717],["我",0.673],["肖",0.457],["春",0.254]],"timestamps":[["但是",2417.42,2417.67],["我",2418.06,2418.4],["肖",2418.57,2418.79],["春",2418.79,2419]]},{"transcript":"但是 我 校 春 "},{"transcript":"但是 我 下车 "}],"final":true},"total_time":2419}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 ","confidence":0.87,"word_confidence":[["我",0.87]],"timestamps":[["我",2419.32,2419.53]]},{"transcript":"我 跑 "},{"transcript":"我 真 好 "}],"final":true},"total_time":2419.53}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 觉得 ","confidence":0.992,"word_confidence":[["我",0.992],["觉得",0.992]],"timestamps":[["我",2420.1,2420.17],["觉得",2420.17,2420.4]]},{"transcript":"我 觉得 也 "},{"transcript":"我 觉得 呀 "}],"final":true},"total_time":2420.4}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"戈 "},{"transcript":"歌 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"整个 这个 画册 ","confidence":0.622,"word_confidence":[["整个",1],["这个",0.984],["画册",0.141]],"timestamps":[["整个",2424.11,2424.37],["这个",2424.37,2424.59],["画册",2424.59,2424.96]]},{"transcript":"整个 这个 话 "},{"transcript":"整个 这个 房子 "}],"final":true},"total_time":2424.96}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我们 谢谢 ","confidence":0.975,"word_confidence":[["我们",0.828],["谢谢",0.999]],"timestamps":[["我们",2428.6,2428.87],["谢谢",2428.87,2430.5]]},{"transcript":"给 我们 谢谢 "},{"transcript":"跟 我们 谢谢 "}],"final":true},"total_time":2430.5}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我们 这些 ","confidence":0.856,"word_confidence":[["我们",1],["这些",0.735]],"timestamps":[["我们",2432.96,2433.34],["这些",2434.87,2435.32]]},{"transcript":"周 我们 这些 "},{"transcript":"我们 执行 "}],"final":true},"total_time":2435.32}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.967,"word_confidence":[["谢谢",0.967]],"timestamps":[["谢谢",2436.98,2437.64]]}],"final":true},"total_time":2437.64}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 ","confidence":0.524,"word_confidence":[["我",0.524]],"timestamps":[["我",2439.2,2439.5]]},{"transcript":"呃 "}],"final":true},"total_time":2439.5}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.982,"word_confidence":[["谢谢",0.982]],"timestamps":[["谢谢",2440.31,2441.3]]}],"final":true},"total_time":2441.3}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"这个 是 纯粹 ","confidence":0.582,"word_confidence":[["这个",0.916],["是",0.894],["纯粹",0.101]],"timestamps":[["这个",2441.94,2442.19],["是",2442.19,2442.43],["纯粹",2443.77,2444.1]]},{"transcript":"这个 是 追求 "},{"transcript":"这个 是 春秋 "}],"final":true},"total_time":2444.1}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"对啊 "},{"transcript":"村村 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.993,"word_confidence":[["谢谢",0.993]],"timestamps":[["谢谢",2448.75,2451.95]]}],"final":true},"total_time":2451.95}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"数 "},{"transcript":"她 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"不过 "},{"transcript":"我 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"任 "},{"transcript":"人们 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"昨天 我 上次 ","confidence":0.491,"word_confidence":[["昨天",0.421],["我",0.972],["上次",0.292]],"timestamps":[["昨天",2460.61,2460.83],["我",2460.86,2461],["上次",2461,2461.26]]},{"transcript":"昨天 我 上次 考 "},{"transcript":"昨天 我 上次 靠 "}],"final":true},"total_time":2461.26}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"迫使 我 之前 我 追求 蔬果 追 平 卧 弓 上的 好处 他们 我们 跑 得 也是 可以 ","confidence":0.547,"word_confidence":[["迫使",0.894],["我",0.618],["之前",0.961],["我",1],["追求",0.664],["蔬果",0.163],["追",0.735],["平",0.308],["卧",0.356],["弓",0.356],["上的",0.056],["好处",0.669],["他们",0.453],["我们",0.242],["跑",0.571],["得",0.313],["也是",0.98],["可以",0.375]],"timestamps":[["迫使",2462.95,2463.43],["我",2464.17,2464.38],["之前",2465.57,2465.83],["我",2465.99,2466.26],["追求",2466.26,2466.55],["蔬果",2466.76,2467.24],["追",2467.24,2467.4],["平",2467.96,2468.05],["卧",2468.05,2468.26],["弓",2468.5,2468.72],["上的",2469.35,2469.64],["好处",2469.64,2470.05],["他们",2470.27,2470.46],["我们",2470.46,2470.81],["跑",2470.81,2471.04],["得",2471.04,2471.2],["也是",2471.2,2471.43],["可以",2471.43,2471.64]]},{"transcript":"迫使 我 之前 我 追求 蔬果 追 平 卧 弓 上的 好处 他们 我们 跑 这 也是 可以 "},{"transcript":"迫使 我 之前 我 追求 蔬果 追 平 卧 弓 上的 好处 他们 我们 跑 得 也是 亏 "}],"final":true},"total_time":2471.64}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"主持人 您 说到 也会 可能会 有多 困难 ","confidence":0.44,"word_confidence":[["主持人",0.89],["您",0.302],["说到",0.346],["也会",0.548],["可能会",0.238],["有多",0.368],["困难",0.34]],"timestamps":[["主持人",2473.18,2473.48],["您",2475.46,2475.55],["说到",2475.55,2475.94],["也会",2475.94,2476.27],["可能会",2476.49,2476.84],["有多",2476.84,2477.11],["困难",2477.31,2477.62]]},{"transcript":"主持人 您 说到 又会 可能会 有多 困难 "},{"transcript":"主持人 您 说到 优惠 可能会 有多 困难 "}],"final":true},"total_time":2477.62}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"根 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"如果 要 趁着 ","confidence":0.718,"word_confidence":[["如果",0.917],["要",0.948],["趁着",0.408]],"timestamps":[["如果",2480.56,2480.87],["要",2480.87,2481.02],["趁着",2481.29,2481.6]]},{"transcript":"如果 要 趁早 "},{"transcript":"如果 要 振作 起来 "}],"final":true},"total_time":2481.6}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.989,"word_confidence":[["谢谢",0.989]],"timestamps":[["谢谢",2484.51,2486.02]]}],"final":true},"total_time":2486.02}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"答 完 ","confidence":0.277,"word_confidence":[["答",0.359],["完",0.209]],"timestamps":[["答",2487.06,2487.21],["完",2488.36,2488.54]]},{"transcript":"答 完 五 "},{"transcript":"达到 八十五 "}],"final":true},"total_time":2488.54}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"工程 "},{"transcript":"完 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 ","confidence":0.92,"word_confidence":[["我",0.92]],"timestamps":[["我",2494.03,2494.42]]},{"transcript":"我 还 "},{"transcript":"我 我 "}],"final":true},"total_time":2494.42}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"这个 很可能 ","confidence":0.947,"word_confidence":[["这个",0.975],["很可能",0.935]],"timestamps":[["这个",2496.96,2497.16],["很可能",2497.24,2497.71]]},{"transcript":"我说 这个 很可能 "},{"transcript":"我 这个 很可能 "}],"final":true},"total_time":2497.71}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"而 过 "},{"transcript":"哦 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"更 "},{"transcript":"对 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 觉得 这 这 这 可是 可能性 我们 那些 就是 发生 ","confidence":0.683,"word_confidence":[["我",0.343],["觉得",0.765],["这",0.819],["这",0.88],["这",0.999],["可是",0.733],["可能性",0.5],["我们",0.761],["那些",0.331],["就是",1],["发生",0.564]],"timestamps":[["我",2504.27,2504.39],["觉得",2505.03,2505.26],["这",2505.26,2505.4],["这",2506.18,2506.32],["这",2506.8,2506.97],["可是",2510.15,2510.38],["可能性",2510.77,2511.11],["我们",2511.11,2511.35],["那些",2511.46,2511.7],["就是",2512.47,2512.69],["发生",2512.91,2513.17]]},{"transcript":"我 觉得 这 这 这 可是 可能性 我们 那些 就是 发射 "},{"transcript":"我 觉得 这 这 这 这个 可是 可能性 我们 那些 就是 发生 "}],"final":true},"total_time":2513.17}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"所以 ","confidence":0.203,"word_confidence":[["所以",0.203]],"timestamps":[["所以",2515.81,2516.16]]},{"transcript":"谁 "},{"transcript":"新浪 "}],"final":true},"total_time":2516.16}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谁 是 ","confidence":0.545,"word_confidence":[["谁",0.556],["是",0.53]],"timestamps":[["谁",2519.73,2519.99],["是",2520.31,2520.51]]},{"transcript":"他说 谁 是 "},{"transcript":"成功 他说 谁 是 "}],"final":true},"total_time":2520.51}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 ","confidence":0.386,"word_confidence":[["我",0.386]],"timestamps":[["我",2522.06,2522.4]]},{"transcript":"我 工作 "},{"transcript":"郭 "}],"final":true},"total_time":2522.4}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 觉得 是 跑 了 ","confidence":0.788,"word_confidence":[["我",0.997],["觉得",0.938],["是",0.223],["跑",0.827],["了",0.532]],"timestamps":[["我",2525.38,2525.71],["觉得",2525.71,2525.96],["是",2528.84,2528.99],["跑",2528.99,2529.29],["了",2529.33,2529.46]]},{"transcript":"我 觉得 是 跑 "},{"transcript":"我 就 跑 了 "}],"final":true},"total_time":2529.46}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"也是 苦 ","confidence":0.491,"word_confidence":[["也是",0.477],["苦",0.502]],"timestamps":[["也是",2530.56,2530.79],["苦",2530.79,2531.1]]},{"transcript":"也是 苦 我 感觉 "},{"transcript":"你 也是 苦 "}],"final":true},"total_time":2531.1}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"可是 我有 狮子 ","confidence":0.602,"word_confidence":[["可是",1],["我有",0.824],["狮子",0.246]],"timestamps":[["可是",2532.23,2532.46],["我有",2532.46,2532.72],["狮子",2532.72,2533.14]]},{"transcript":"可是 我有 虱子 "},{"transcript":"可是 我有 是指 "}],"final":true},"total_time":2533.14}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"他 有一些 台 的 ","confidence":0.677,"word_confidence":[["他",0.533],["有一些",0.973],["台",0.235],["的",0.738]],"timestamps":[["他",2534.32,2534.54],["有一些",2534.59,2535.03],["台",2535.09,2535.34],["的",2535.7,2535.9]]},{"transcript":"他 有一些 谈 的 "},{"transcript":"他 有一些 他人 的 "}],"final":true},"total_time":2535.9}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"深 的一个 很 开心 ","confidence":0.288,"word_confidence":[["深",0.59],["的一个",0.421],["很",0.067],["开心",0.107]],"timestamps":[["深",2537.22,2537.44],["的一个",2537.44,2537.7],["很",2537.87,2538.1],["开心",2538.41,2538.69]]},{"transcript":"深 的一个 也很 开心 "},{"transcript":"省 的一个 很 开心 "}],"final":true},"total_time":2538.69}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"狗 ","confidence":0.261,"word_confidence":[["狗",0.261]],"timestamps":[["狗",2541.39,2541.6]]},{"transcript":"走 "},{"transcript":"高 "}],"final":true},"total_time":2541.6}
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: Stopping all channels.
+[32minfo[39m: Transcribing 1 channels.
+[32minfo[39m: Starting all channels with the generic model.
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"他 "},{"transcript":"她 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"数 "},{"transcript":"属 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"石 "},{"transcript":"许 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"还 "},{"transcript":"海 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"我 "},{"transcript":"彭 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"他 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"李 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.993,"word_confidence":[["谢谢",0.993]],"timestamps":[["谢谢",32.39,34.63]]}],"final":true},"total_time":34.63}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"一 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 ","confidence":0.964,"word_confidence":[["谢谢",0.964]],"timestamps":[["谢谢",79.89,80.41]]}],"final":true},"total_time":80.41}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"谢谢 猫 ","confidence":0.859,"word_confidence":[["谢谢",1],["猫",0.647]],"timestamps":[["谢谢",94.23,94.71],["猫",94.71,95.03]]},{"transcript":"谢谢 包 "},{"transcript":"谢谢 "}],"final":true},"total_time":95.03}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 ","confidence":0.768,"word_confidence":[["熊猫",0.768]],"timestamps":[["熊猫",98.21,98.78]]},{"transcript":"宠物 猫 "}],"final":true},"total_time":98.78}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 ","confidence":0.633,"word_confidence":[["熊猫",0.633]],"timestamps":[["熊猫",105.67,106.62]]},{"transcript":"雄 猫 "},{"transcript":"熊 猫 "}],"final":true},"total_time":106.62}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"熊猫 你好 ","confidence":0.647,"word_confidence":[["熊猫",1],["你好",0.075]],"timestamps":[["熊猫",113.04,113.8],["你好",113.8,114.27]]},{"transcript":"熊猫 您好 "},{"transcript":"熊猫 你们 好 "}],"final":true},"total_time":114.27}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"银行 ","confidence":0.32,"word_confidence":[["银行",0.32]],"timestamps":[["银行",1268.78,1269.25]]},{"transcript":"您好 "},{"transcript":"你好 "}],"final":true},"total_time":1269.25}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"您 好 ","confidence":0.536,"word_confidence":[["您",0.564],["好",0.505]],"timestamps":[["您",1277.64,1277.96],["好",1277.96,1278.25]]},{"transcript":"你 好 "},{"transcript":"宁 浩 "}],"final":true},"total_time":1278.25}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"搜 ","confidence":0.301,"word_confidence":[["搜",0.301]],"timestamps":[["搜",1360.98,1361.18]]},{"transcript":"塞 "},{"transcript":"艘 "}],"final":true},"total_time":1361.18}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 ","confidence":0.698,"word_confidence":[["我",0.698]],"timestamps":[["我",1397.43,1397.72]]},{"transcript":"呃 我 "},{"transcript":"哦 我 "}],"final":true},"total_time":1397.72}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"应该 "},{"transcript":"你 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"我 "},{"transcript":"呃 我 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"他说 给 ","confidence":0.61,"word_confidence":[["他说",0.366],["给",0.855]],"timestamps":[["他说",1414.8,1415.06],["给",1415.06,1415.32]]},{"transcript":"我 给 "},{"transcript":"他说 "}],"final":true},"total_time":1415.32}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"看来 之死 ","confidence":0.198,"word_confidence":[["看来",0.4],["之死",0.067]],"timestamps":[["看来",1417.57,1417.88],["之死",1417.88,1418.36]]},{"transcript":"看来 致死 "},{"transcript":"看来 之 四 "}],"final":true},"total_time":1418.36}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"贵 "},{"transcript":"规 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"如果 必要 ","confidence":0.327,"word_confidence":[["如果",0.423],["必要",0.205]],"timestamps":[["如果",1424.1,1424.38],["必要",1424.38,1424.6]]},{"transcript":"如果 "},{"transcript":"中国 "}],"final":true},"total_time":1424.6}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"我 问 "},{"transcript":"呃 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"有 ","confidence":0.242,"word_confidence":[["有",0.242]],"timestamps":[["有",1428.14,1428.59]]},{"transcript":"到 "},{"transcript":"呃 "}],"final":true},"total_time":1428.59}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"天 "},{"transcript":"经 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"timestamps":[],"confidence":0,"transcript":"包着 "},{"transcript":"冒着 "}],"final":true}}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"我 都是 ","confidence":0.615,"word_confidence":[["我",0.603],["都是",0.621]],"timestamps":[["我",1500.08,1500.22],["都是",1500.22,1500.5]]},{"transcript":"如果 都是 "},{"transcript":"我 都 "}],"final":true},"total_time":1500.5}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"皮 儿 ","confidence":0.508,"word_confidence":[["皮",0.337],["儿",0.611]],"timestamps":[["皮",1532.18,1532.36],["儿",1532.36,1532.66]]},{"transcript":"皮尔 "},{"transcript":"撇 "}],"final":true},"total_time":1532.66}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"寇 频道 鼠标 里面 ","confidence":0.485,"word_confidence":[["寇",0.547],["频道",0.382],["鼠标",0.26],["里面",0.916]],"timestamps":[["寇",1646.19,1646.4],["频道",1646.4,1646.71],["鼠标",1646.78,1647.21],["里面",1647.21,1647.48]]},{"transcript":"寇 频道 数 由 里面 "},{"transcript":"投票 数 由 里面 "}],"final":true},"total_time":1647.48}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"真的 ","confidence":0.132,"word_confidence":[["真的",0.132]],"timestamps":[["真的",1650.49,1650.73]]},{"transcript":"知道 "},{"transcript":"侦办 "}],"final":true},"total_time":1650.73}
+[32minfo[39m: {"workerID":"transcript-worker","channelName":"zh-CN","channelIndex":0,"result":{"alternatives":[{"transcript":"靠 非常 受 票 ","confidence":0.438,"word_confidence":[["靠",0.319],["非常",0.966],["受",0.183],["票",0.155]],"timestamps":[["靠",1651.39,1651.49],["非常",1651.49,1651.72],["受",1651.72,1651.94],["票",1651.94,1652.13]]},{"transcript":"康 非常 受 票 "},{"transcript":"非常 受 票 "}],"final":true},"total_time":1652.13}
