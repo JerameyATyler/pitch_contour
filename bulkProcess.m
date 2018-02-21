@@ -8,7 +8,7 @@ function bulkProcess(inPath, outPath)
     filePattern = fullfile(inPath, '*.wav');
     theFiles = dir(filePattern);
     
-    for k = 490 : length(theFiles)
+    for k = 1 : length(theFiles)
         baseFileName = theFiles(k).name;
         fullFileName = fullfile(inPath, baseFileName);
         fprintf(1, 'Now reading %s\n', fullFileName);

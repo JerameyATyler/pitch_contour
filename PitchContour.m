@@ -13,6 +13,8 @@ classdef PitchContour
         onsetTime     %The onset time
         offsetTime    %The offset time
         contour       %A vector representing the pitch contour
+        t             %The time in seconds of the pitch contour
+        rms           %The root mean square of the pitch contour
     end
     
     methods
@@ -34,15 +36,40 @@ classdef PitchContour
             %Find the midY for the sample.
             midY = obj.filterSample(sample, sampleRate);
             
-            %Find and set the pitch contour and it's onset time.
-            [pc, onsettime] = obj.computepitchcontour(midY, sampleRate);
+            %Find and set the pitch contour and it's time in seconds.
+            [pc, t] = obj.computepitchcontour(midY, sampleRate);
             obj.contour = pc;
-            obj.onsetTime = onsettime;
+            obj.t = t;
+            obj.rms = obj.computeRMS();
             
             %Get onset and offset times
             [onset, offset] = obj.computeOnOffTimes(sample, sampleRate);
             obj.onsetTime = onset;
             obj.offsetTime = offset;
+        end
+        
+        function e = minus(obj1, obj2)
+            % Operator overloading to allow for arithmetic operators to be used
+            % on PitchContour objects. This will make the code a lot easier to
+            % use. Overloading the operators can make things like sorting much
+            % easier.
+            % 
+            % The minus operation, '-', should produce the "difference" of the two
+            % PitchContours. Right now I am arbitrarily returning the difference
+            % of the root mean square of the pitch contour of obj1 with the root
+            % mean square of the pitch contour of obj2. My intention is that
+            % obj1 will be a reference PitchContour (the median) used to compare
+            % similarities.
+            a = obj1.rms;
+            b = obj2.rms;
+            
+            e = a - b;
+        end
+        
+        function b = lt(obj1, obj2)
+            % This allows the ability to sort a list of pitch contours on
+            % their rms.
+            b = obj1.rms < obj2.rms;
         end
     end
         
@@ -62,7 +89,7 @@ classdef PitchContour
             end
         end
         
-        function [pitchContour, t] = computepitchcontour(obj, midY, sampleRate)            
+        function [pitchContour, t] = computepitchcontour(obj, midY, sampleRate)
             tic
             [f0, t] = obj.computef0(midY, sampleRate);
             toc
@@ -115,6 +142,8 @@ classdef PitchContour
             si = size(y);
 
             for i = 1:si(1)
+                %This is reallocating every loop. There is probably a
+                %better way to do this.
                 ynormalized(i, :) = (y(i , :) - m(i))/s(i);
             end
         end
@@ -128,7 +157,7 @@ classdef PitchContour
             
             x=ERBFilterBank(y(:,1),fcoefs);
             %Not sure what this is. There is probably a better way to
-            %handle this 
+            %handle this, it's reallocating every loop
             load midF32k.mat midFreq;
             for n=1:24               
                 ye=calc_env(x(n,:),midFreq(n),Fs,'m2');
@@ -141,6 +170,15 @@ classdef PitchContour
             index=find(YES/max(YES)>0.1);
             onsetTime=(index(1)-50)./2000.*Fs2;
             offsetTime=(index(length(index))+150)./2000.*Fs2;
+        end
+        
+        function normalizedContour = normalizeContour(obj1, obj2)
+            %Currently my intention is to normalize the student's pitch
+            %contour to the median native speaker's contour with the reason
+            %being that the native speaker's pitch contour length is more
+            %likely to be correct than the non-native speaker's length.
+            %More indepth analysis of this can be looked into later.
+            normalizedContour = obj1.contour/norm(obj2.contour);           
         end
     end
     
@@ -165,6 +203,54 @@ classdef PitchContour
             %Create pitch contour subplot
             subplot(2, 1, 2);
             plot(obj.contour)
+        end
+        
+        function fig = compareContours(obj1, obj2)
+            %get character from filename. Change this later to be a
+            %property of the object or something passed in or something
+            %beside this.
+            char = obj1.sampleId(end - 5: end-4);
+            
+            %Create parent panel
+            fig = figure('visible', 'on');
+            p = uipanel('Parent', fig, 'BorderType', 'Line');
+            p.Title = strcat("Practicing", char); %Change this to the character name
+            p.TitlePosition = 'centertop';
+            p.FontSize = 12;
+            
+            %Create waveform subplot
+            subplot(2, 1, 1, 'Parent', p)
+            plot(obj1.sample, '-k')
+            xlabel('Time');
+            ylabel('Amplitude');
+            
+            hold on
+            vline(obj1.onsetTime, 'r', 'Onset Time')
+            vline(obj1.offsetTime, 'r', 'Offset Time')
+            
+            subplot(2, 1, 2)
+            plot(obj1.contour, '-k', 'LineWidth', 1)
+            title('Pitch Contour Comparison');
+            xlabel('Time');
+            ylabel('Pitch');
+            hold on
+            plot(obj2.contour, '--b')
+            hold off
+        end
+        
+        function frms = computeRMS(obj)
+            %Returns the root mean square of a PitchContour object. I'm
+            %using this to determine the similarity of assign a numeric
+            %value to this so I can sort them
+            
+            frms = sqrt(nanmean((obj.contour).^2));
+        end
+        
+        function e = computeRMSE(obj1, obj2)
+            %Returns the root mean square error of two PitchContour
+            %objects. I'm assuming that both PitchContour objects have been
+            %length normalized.
+            e = sqrt(mean((obj1.contour - obj2.contour).^2));
         end
     end
 end
