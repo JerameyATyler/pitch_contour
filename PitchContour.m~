@@ -31,14 +31,13 @@ classdef PitchContour
             [sample, sampleRate] = audioread(sampleId);
             
             %Set the sample and sample rate. 
-            sample = sum(sample, 2)/size(sample, 2);
-            obj.sample = sample;
+            obj.sample = sum(sample, 2)/size(sample, 2);
             obj.sampleRate = sampleRate;
             
             %Find and set the pitch contour and it's time in milliseconds.
             pc = obj.computepitchcontour();
             obj.contour = pc;
-            obj.t = linspace(0, (size(sample, 2)/44100), numel(sample));
+            obj.t = linspace(0, (size(sample)/44100), numel(sample));
             
             obj.rms = obj.computeRMS();
             
@@ -189,18 +188,18 @@ classdef PitchContour
             p.Title = 'Sample Analysis';
             p.TitlePosition = 'centertop';
             p.FontSize = 12;
-            
             t = obj. t;
             y = obj.sample;
-            
             subplot(3,1,1, 'Parent', p);
             plot(t, y);
-            axis([0 (size(y, 2)/44100) -1 1]);
+            axis([0 (size(y)/44100) -1 1]);
             ylabel('Amplitude');
             xlabel('Time (s)');
             title('Utterance - ')
             
-            %t = cumsum(ones(size(audioIn))/obj.sampleRate);
+            spl_db = spl(audioIn, 'air', 0.010, obj.sampleRate);
+            t = cumsum(ones(size(audioIn))/obj.sampleRate);
+            timeVector = linspace(0, (42/44.1), numel(audioIn));
                                     
             
             %Add onset/offset times to waveform plot
@@ -208,17 +207,20 @@ classdef PitchContour
             vline(obj.onsetTime, 'g', 'Onset Time')
             vline(obj.offsetTime, 'g', 'Offset Time')
             
-            pitch = obj.contour;
+            %Create pitch contour subplot
+            pD = audiopluginexample.SpeechPitchDetector;
+            [~,pitch] = process(pD, audioIn);
+
             subplot(3, 1, 2);
-            plot(t, pitch, '*')
-            axis([0 (size(y,2)/44100) (min(pitch)-10) (max(pitch)+10)])
+            plot(timeVector, pitch, '*')
+            axis([0 0.9 0 200])
             ylabel('Pitch (Hz)')
             xlabel('Time (s)');
             hold off;
             
             hold on;
             subplot(3, 1, 3);
-            plot(t, obj.spl_db)
+            plot(t, spl_db)
             axis tight
             ylabel('spl (dB)')
             xlabel('time (s)')
